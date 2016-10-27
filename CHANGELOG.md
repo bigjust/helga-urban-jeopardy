@@ -5,12 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
-### Added
-- everything
 
-### Changed
-- hopefully nothing
-
-## [0.1.0] - 2016-10-26
+## [0.1.0] - 2016-10-27
 ### Added
-- first feature
+- initial implementation, piggybacks off helga-jeopardy, asks definition and
+  expects word
