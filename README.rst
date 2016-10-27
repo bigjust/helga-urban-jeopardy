@@ -5,6 +5,8 @@ Urban Dictionary powered Jeopardy
 
 "Thats good clean family fun, Cotton"
 
+Requres helga-jeopardy >= 0.2.0
+
 License
 -------
 
