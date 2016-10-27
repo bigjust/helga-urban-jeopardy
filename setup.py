@@ -18,11 +18,14 @@ setup(name="helga-urban-jeopardy",
       license='LICENSE',
       packages=find_packages(),
       include_package_data=True,
-      py_modules=['helga_urban-jeopardy'],
+      install_requires = (
+          'helga_jeopardy',
+      ),
+      py_modules=['helga_urban_jeopardy'],
       zip_safe=True,
       entry_points = dict(
           helga_plugins = [
-              'urban-jeopardy = helga_urban-jeopardy:urban-jeopardy',
+              'urban_jeopardy = helga_urban_jeopardy:urban_jeopardy',
           ],
       ),
 )
